@@ -1,0 +1,40 @@
+.list-wrapper{
+    width: 100%;
+    .list-heading{
+        display:grid;
+        width : 100%;
+        grid-template-columns: repeat(3,33.3%);
+        .song-desc{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        p{
+            font-size : 25px;
+            font-weight: 700;
+            text-align : center;
+            color : #394867;
+        }
+    }
+    .list-outer{
+        display : grid;
+        box-sizing: border-box;
+        align-items : center;
+        grid-template-columns: repeat(3,33.3%);
+        border: 1px solid gray;
+        margin : 5px 10px;
+        border-radius: 30px;
+        .title {
+            display : flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            font-size : 20px;
+            font-weight: 600;
+            img {
+                width : 125px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
