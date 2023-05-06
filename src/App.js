@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import ItemList from "./ItemList";
 function App() {
   // Define state for the items data
-  const initItems = [
+  const items = [
     {
       image: "https://images.bestofbharat.com/2021/04/32-18.jpg",
       title: "Perfect",
@@ -43,7 +43,6 @@ function App() {
       completion_rate: 80,
     },
   ];
-  const [items, setItems] = useState(initItems);
 
   return (
     <div className="app">
